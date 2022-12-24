@@ -1,0 +1,49 @@
+
+
+  Gilded Rose Common Test Cases
+    ✔ Update quantity function does not add or remove items
+    ✔ Update quantity function does not alter item names
+    ✔ Update quantity function lowers sellIn value by 1 on each day
+
+  Gilded Rose Test Cases General and for Standard Items
+    ✔ Quality of an item cannot be negative
+    ✔ Maximum Quality of item cannot be grerater than 50
+    ✔ Items can have a sellIn day less than 0
+    ✔ Quality of a Standard item decreases twice as fast after sellIn date is passed
+    ✔ Quality of a Standard item decreases twice as fast after sellIn date is passed
+    ✔ Quality of a Standard item decreases twice as fast after sellIn date is passed
+    ✔ Quality of a Standard item decreases by 1 while within sellIn date
+
+  Gilded Rose Test Cases for Aged Brie Items
+    ✔ Quality increases for Aged Brie the older it gets (max- 50) check in a loop
+    ✔ Quality increases with age
+    ✔ Quality increases twice outside sellIn with age even outside SellIn date
+    ✔ Quality increases with age but maximum is 50
+    ✔ Quality increases twice outside sellIn with age but maximum is 50
+    ✔ Quality increases twice outside sellIn with age but maximum is 50
+    ✔ Quality increases twice outside sellIn with age but maximum is 50
+
+  Gilded Rose Test Cases for Sulfuras Items, not Sold and not Quality changes
+    ✔ Should not be sold or have a change in Quality
+    ✔ Should not be sold or have a change in Quality
+    ✔ No update on quality for Sulfuras items in a Loop
+
+  Gilded Rose Test Cases for Backstage Items
+    ✔ Quality increases by 1 when more than 10 days left concert
+    ✔ increases faster (by 2) when the concert approaches
+    ✔ increases even faster (by 3) when the concert approaches
+    ✔ drops to 0 when the concert is over
+    ✔ Quality increased by 2(but a max of 50) when the sellIn days are 10 or less
+    ✔ Quality increased by 3 (but a max of 50) when the sellIn days are 5 or less
+    ✔ Quality does not increase more than Max value 50
+
+  Gilded Rose Test Cases for Conjured Items
+    ✔ Quality degrades twice as fast as normal items within SellIn date
+    ✔ Quality degrades twice as fast as normal items outside SellIn date
+    ✔ Quality degrades twice as fast as normal items outside SellIn date
+    ✔ Quality degrades twice as fast as normal items outside SellIn date
+    ✔ Quality degrades twice as fast as normal items outside SellIn date
+
+
+  32 passing (7ms)
+
